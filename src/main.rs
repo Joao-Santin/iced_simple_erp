@@ -26,7 +26,7 @@ impl SERP{
         let screen = match self.screen{
             Screen::Login => "Login"
         };
-        format!("{} - Iced", screen)
+        format!("{} - SERP", screen)
     }
     fn update(&mut self, event:Message){
         match event {
