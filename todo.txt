@@ -1,0 +1,13 @@
+metas para 16/01/24
+
+  [x]dividir projeto em diferentes arquivos, nao virar 1 coisa so
+  []criar tela de login
+  []organizar como funcionara TextInputs
+
+O que e preciso fazer agora?
+  organizar como vai funcionar os textinputs, ja que a quantidade deles sera muito grande.
+---
+como que vai funcionar o app?
+
+  principio do iced: title, update, view.
+  usar messages que sao enums para o update.
