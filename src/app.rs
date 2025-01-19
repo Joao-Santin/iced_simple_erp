@@ -1,7 +1,5 @@
 use iced::{widget::column, widget::button, widget::row, widget::container, Theme, Element, Fill};
-
 use std::collections::HashMap;
-
 use crate::screens::{login, config};
 
 //all screens
@@ -10,6 +8,7 @@ pub enum Screen {
     Login,
     Config,
 }
+
 //all inputs
 #[derive(Debug, Clone)]
 pub enum InputField {
@@ -17,6 +16,7 @@ pub enum InputField {
     Password,
 }
 
+//config struct
 #[derive(Debug, Clone)]
 pub enum ButtonP {
     Test,
@@ -80,9 +80,6 @@ impl Default for SERP {
             screens,
         }
     }
-}
-fn getting_config() -> String{
-    "joginho".to_string()
 }
 
 // all functions needed for the app
