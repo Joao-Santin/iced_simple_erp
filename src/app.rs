@@ -15,7 +15,6 @@ pub enum InputField {
     Username,
     Password,
 }
-
 //config struct
 #[derive(Debug, Clone)]
 pub enum ButtonP {
